@@ -50,11 +50,12 @@ a:hover{
 
 @media (max-width: 400px) {
     body {
-        background-color: ;
+        background-color: white;
          
     }
     img {
-            width: 70%;
+            margin-left: 3px;
+            width: 90%;
             height: auto;
         }
     a  {

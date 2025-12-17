@@ -50,7 +50,7 @@ p1{
 
 @media (max-width: 400px) {
     body {
-        background-color: ;
+        background-color: white;
          
     }
     img {
@@ -63,6 +63,6 @@ p1{
     p1 {
         width: 60%;
         height: auto;
-        font-size: 9px;
+        font-size: 15px;
     }
 }
