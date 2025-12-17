@@ -54,7 +54,7 @@ a:hover{
          
     }
     img {
-            margin-left: 8px;
+            margin: auto, 0, auto, 0;
             width: 90%;
             height: auto;
         }
