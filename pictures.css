@@ -57,7 +57,35 @@ a:hover{
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 400px) {
+    body {
+        background-color: white;
+        width:auto;
+         
+    }
+    img {
+            margin-left: 10px;
+            width: 90%;
+            height: auto;
+        }
+    a  {
+        margin-left: 30%;
+    }
+    p3 {
+        width: 100%;
+        height: auto;
+        font-size: 28px;
+        color:#ff9999;
+    }
+    .telnr{
+        font-size: 1.6em;
+        color: blue;
+    }
+}
+
+
+
+@media (max-width: 550px) {
     body {
         background-color: white;
         width:auto;
