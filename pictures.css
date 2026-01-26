@@ -38,7 +38,7 @@ p3:hover{
 .telnr{
     display: flex;
     justify-content: center;
-    font-size: 1.6em;
+    font-size: 2.0em;
     color: #ff9999;
     margin: 15px;
 }
@@ -56,9 +56,9 @@ a:hover{
     color: red;
 }
 
+ 
 
-
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     body {
         background-color: white;
         width:auto;
@@ -79,41 +79,14 @@ a:hover{
         color:#ff9999;
     }
     .telnr{
-        font-size: 1.8em;
-        color: green;
+        font-size: 5.8em;
+        color: darkgreen;
     }
 }
+ 
 
 
 @media (max-width: 650px) {
-    body {
-        background-color: white;
-        width:auto;
-         
-    }
-    img {
-            margin-left: 10px;
-            width: 90%;
-            height: auto;
-        }
-    a  {
-        margin-left: 30%;
-    }
-    p3 {
-        width: 100%;
-        height: auto;
-        font-size: 28px;
-        color:#ff9999;
-    }
-    .telnr{
-        font-size: 1.8em;
-        color: green;
-    }
-}
-
-
-
-@media (max-width: 750px) {
     body {
         background-color: white;
         width:auto;
