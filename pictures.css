@@ -57,7 +57,8 @@ a:hover{
 }
 
 
-@media (max-width: 450px) {
+
+@media (max-width: 400px) {
     body {
         background-color: white;
         width:auto;
@@ -79,13 +80,40 @@ a:hover{
     }
     .telnr{
         font-size: 1.8em;
-        color: blue;
+        color: green;
+    }
+}
+
+
+@media (max-width: 550px) {
+    body {
+        background-color: white;
+        width:auto;
+         
+    }
+    img {
+            margin-left: 10px;
+            width: 90%;
+            height: auto;
+        }
+    a  {
+        margin-left: 30%;
+    }
+    p3 {
+        width: 100%;
+        height: auto;
+        font-size: 28px;
+        color:#ff9999;
+    }
+    .telnr{
+        font-size: 1.8em;
+        color: green;
     }
 }
 
 
 
-@media (max-width: 550px) {
+@media (max-width: 650px) {
     body {
         background-color: white;
         width:auto;
