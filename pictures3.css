@@ -40,8 +40,7 @@ img {
     color: #ff9999;
     margin: 15px;
 }
-
-
+ 
 a {
     display: block;
     font-size: 20px;
@@ -78,5 +77,11 @@ a:hover {
 
     .telnr {
         font-size: 1.8em;
+    }
+}
+
+@media (min-width: 900px) {
+    img {
+        max-width: 550px;   /* ← pas dit aan naar smaak */
     }
 }
