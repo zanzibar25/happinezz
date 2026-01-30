@@ -54,7 +54,7 @@ a:hover {
     color: red;
 }
 
-p3{
+.p3{
     font-size: 1.8em;
     color: blue;
     margin-left: 10%;
@@ -70,7 +70,7 @@ p3{
         font-size: 22px;
         max-width: 95%;
     }
-    p3{
+    .p3{
         font-size: 1.5em;
         color: blue;
         margin-left: 10%;
