@@ -36,7 +36,7 @@ img {
 
 
 .telnr {
-    font-size: 2em;
+    font-size: 1.5em;
     color: #ff9999;
     margin: 15px;
 }
@@ -54,8 +54,8 @@ a:hover {
 }
 
 .p3{
-    font-size: 1.8em;
-    color: blue;
+    font-size: 1.4em;
+    color: #ff9999;;
     margin-left: 10%;
     justify-content: center;
 }
@@ -70,8 +70,8 @@ a:hover {
         max-width: 95%;
     }
     .p3{
-        font-size: 1.5em;
-        color: blue;
+        font-size: 1.4em;
+        color:#ff9999;;
         margin-left: 10%;
     }
 
