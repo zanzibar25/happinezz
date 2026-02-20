@@ -49,6 +49,22 @@ p{
     height: 200px;
 }
 
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f4f4f4;
+    color: #ff9999;
+    margin-top: auto;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    color: #ff9999;
+    cursor: pointer;
+    font-size: 1em;
+}
+
 @media (max-width: 400px) {
     body {
         background-color: white;
@@ -56,8 +72,10 @@ p{
     }
     img {
             width: 70%;
-            height: auto;
-        }
+              height: auto;
+    }
+
+        
     a  {
         margin-left: 30%;
     }
