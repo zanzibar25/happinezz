@@ -1,0 +1,82 @@
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+h1, h2{
+    color: #ff9999;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.container{
+    width: 400px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    padding: 25px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#naam, #land, #review{
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+#review{
+    min-height: 100px;
+    resize: vertical;
+}
+
+button{
+    margin-top: 15px;
+    padding: 10px 25px;
+    font-size: 1em;
+    color: white;
+    background-color: #ff9999;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    background-color: #ff7f7f;
+}
+
+@media (max-width: 500px) {
+    body{
+        width: 95%;
+        padding: 5px;
+    }
+
+    .container{
+        width: 90%;
+        font-size: 1.2em;
+    }
+
+    #naam, #land, #review{
+        font-size: 1.2em;
+    }
+    button{
+        font-size: 1.2em;
+    }
+
+}
