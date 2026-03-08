@@ -9,7 +9,7 @@ body{
 }
 
 body:hover a {
-    background-color: blue;
+    background-color: grey;
     color: white;
     border: 1px dotted blue;
 }
@@ -24,9 +24,9 @@ a{
     color: #ff9999;
     text-decoration: none;
     text-align: right;
-    margin-left: 88%;
-    padding: 5px;
-    width: 150px;
+    margin-left: 82%;
+    padding: 8px;
+    width: 180px;
     border: 1px solid #ff9999;
     border-radius: 3px;
 
