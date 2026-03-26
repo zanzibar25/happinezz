@@ -1,0 +1,90 @@
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+ h2{
+    text-align: center;
+    color: #ff9999;
+ }
+
+ p{
+    text-align: center;
+    color: #ff9999;
+ }
+
+ a{
+    text-align: center;
+    color: #ff9999;
+    display: block;
+    margin-top: 20px;
+
+ }
+
+ .p3{
+    text-align: center;
+    color: #ff9999;
+    margin-top: 20px;
+ }
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.telnr{
+    text-align: center;
+    color: #ff9999;
+    margin-top: 20px;
+}
+ 
+.text {
+  color: #ff9999;
+  font-size: 1.2em;
+  margin-top: 8px;
+  padding: 8px 12px;
+  position: relative;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+ 
+.numbertext {
+  color: #ff9999;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+ 
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #F6F1F3;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #ff9999;;
+}
+
+ 
+.fade {
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+ 
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
